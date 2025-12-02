@@ -1,9 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.26;
 
-// ============================================================================
-// FILE: src/RewardToken.sol
-// ============================================================================
 
 import "openzeppelin-contracts/contracts/token/ERC20/ERC20.sol";
 import "openzeppelin-contracts/contracts/access/Ownable.sol";
@@ -38,6 +35,3 @@ contract RewardToken is ERC20, Ownable {
     }
 }
 
-// ============================================================================
-// FILE: src/TaskRewardPlatform.sol
-// ============================================================================
